@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menutext a{
+     margin-left: 9px;
+     text-decoration: none;
+     color: black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0px 35px;
+}
+.logo{
+    transform: translatex(460px);
+}
+.hero{
+    background  : linear-gradient(rgba(0, 0, 0, 0.571),transparent) , url("./imagesa/baudi.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.863);
+    padding: 30px 720px 0px 40px;
+}
+.hero h1{
+    font-size: 37px;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero p{
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.763);
+    padding: 7px;
+    margin: 15px 0px;
+}
+.buttons #bt1,#bt2{
+
+    height: 55px;
+    width: 230px;
+    
+    border: none;
+    color: black;
+    border-color: aliceblue;
+}
+
+#bt1{
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    padding: 16px 30px;
+  
+}
+#bt1:hover{
+    background-color: lightgray;
+    
+}
+#bt2{
+    color: white;
+    border: 1px solid white;
+    font-size: 13px;
+    background-color: transparent; 
+   
+}
+#bt2:hover{
+    background-color: rgba(169, 169, 169, 0.267);
+    color: lightgray;
+    border-color: lightgray;
+}
+.allmodels{
+    display: flex;
+    justify-content: center;
+   
+}
+.model{
+    text-align: center;
+    transition: 0.5s;
+}
+.allmodels img{
+    height: 94px;
+    width: 219px;
+}
+.modeltitle p{
+    margin-left: 40px;
+    font-size: 16px;
+}
+.model:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+    font-weight: bold; 
+}
+.virtualshowroom{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 60px 0px 20px 0px;
+   
+}
+
+.info{
+   width: 40%;
+   margin-left: 47px;
+}
+.info button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 18px 70px;
+    margin-top: 20px;
+   
+}
+.electric{
+         background-image: url("./imagesa/elcimg.jpg");
+         background-position: center;
+         background-size: cover;
+         height: 280vh;
+         align-items: center;
+         align-items: baseline;
+         
+
+}
+.table{
+    height: 300px;
+    width: 750px;
+    background-color: white;
+    border: 1px solid black;
+    position: sticky;
+    top: 200px;
+    left: 30px;
+    font-family: cur;
+}
+.electric p{
+    margin: 20px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bt1{
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 15px 47px;
+    height: 50px;
+}
+.bt1:hover{
+    background-color: rgba(0, 0, 0, 0.495);
+}
+.bt2{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding:  1px 47px;
+    height: 50px;
+}
+.table,h1,p,.buttons{
+    padding: 10px 0px 0px 10px;
+}
+.ar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 150px 0px 0px 50px;
+}
+.ti{
+    margin: 0px 0px 0px 50px;
+}
+
+#ebtn1{
+    height: 55px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+#ebtn1:hover {
+    background-color: rgba(0, 0, 0, 0.749);
+}
+#ebtn2{
+    height: 55px;
+    width: 230px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+.map{
+    display: flex;
+    
+}
+.blo{
+   
+    display: grid;
+    align-items: center;
+    height: 475px;
+    width: 420px;
+    background-color: black;
+    color: white;
+}
+#dlimg{
+    height: 50px;
+    width: 150px;
+    margin: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+#dlimg:hover{
+    color: rgba(255, 255, 255, 0.701);
+}
+.blo h2{
+    padding-left: 100px;
+}
+.about{
+    height: 1000px;
+    margin-top: 80px;
+    background-color: black;
+}
+.fab{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fab h3,h5{
+    padding: 10px;
+
+}
+.fab h3{
+    font-size: 20px;
+    font-family: cursive;
+}
+.fab h5{
+    font-size: 12px;
+    font-weight: 200vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fab2{
+    margin: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.fab2 h3,h5{
+    padding: 10px;
+}
+.fab2 h3{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.fab5{
+    font-size: 12px;
+    font-weight: 200vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    border: 1px solid white;
+    padding: 0px 30px;
+}
+.social img{
+  border-radius: 30px;
+    background-color: white;
+}
+.ab{
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ab p{
+   padding-left: 60px;
+   padding-left: 30px;
+}
+
+
+@media only screen and ( max-width:650px ){
+    
+
+}
